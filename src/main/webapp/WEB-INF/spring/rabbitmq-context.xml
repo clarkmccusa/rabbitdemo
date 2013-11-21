@@ -40,7 +40,7 @@
 	
 
 	
-	<!-- Spring RabbitTemplate for publishing -->
+	<!-- Spring RabbitTemplate for publishing responses -->
 	<rabbit:template id="rabbitTemplate"
 			connection-factory="connectionFactory" routing-key="person.get.response"
 			exchange="kronos.person.exchange"/>
